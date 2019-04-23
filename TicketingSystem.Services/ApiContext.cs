@@ -11,8 +11,7 @@ namespace TicketingSystem.Services
     //and reference the context from the main project
 
     //Also was going to denonstrate creating some other abstraction, Interfaces, helpers etc
-
-
+           
     public class ApiContext : DbContext
     {
         public ApiContext(DbContextOptions<ApiContext> options) : base(options) { }
